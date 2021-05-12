@@ -1,0 +1,26 @@
+{
+    "introductions": [{
+            "text": "Dear (INPUT) with this letter I would like to submit my application for (INPUT)",
+            "inputs": [
+                "Input Addressed Person:",
+                "Input Name of Job:"
+            ]
+        },
+        {
+            "text": "Dear (INPUT) with this letter I would like to submit my application for (INPUT)",
+            "inputs": [
+                "Input Addressed Person:",
+                "Input Name of Job:"
+            ]
+        }
+
+
+    ],
+    "main_body": [{
+        "text": "Dear (INPUT) with this letter I would like to submit my application for (INPUT)",
+        "inputs": [
+            "Input Addressed Person:",
+            "Input Name of Job:"
+        ]
+    }]
+}

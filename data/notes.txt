@@ -1,0 +1,3 @@
+
+
+To store the strings, I can make lists of strings
