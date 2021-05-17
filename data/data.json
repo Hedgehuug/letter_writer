@@ -1,26 +1,33 @@
 {
     "introductions": [{
-            "text": "Dear (INPUT) with this letter I would like to submit my application for (INPUT)",
+            "id": "0",
+            "text": "Dear (INPUT) with this letter I would like to submit my application to work for you as (INPUT). I came accross your company",
             "inputs": [
-                "Input Addressed Person:",
-                "Input Name of Job:"
+                "Input Addressed Person or body: ",
+                "Input Name of Job or Position: "
             ]
         },
         {
-            "text": "Dear (INPUT) with this letter I would like to submit my application for (INPUT)",
+            "id": "1",
+            "text": "Dear (INPUT), with this letter I would like to submit my application to work for you as (INPUT). I came across your company while looking for jobs for (INPUT), and I believe I could bring you (INPUT). I have (INPUT) years of experience in (INPUT), I love working with (INPUT).",
             "inputs": [
-                "Input Addressed Person:",
-                "Input Name of Job:"
+                "Input Addressed Person or company: ",
+                "Applied Position: ",
+                "What were you looking for when you came accross this posting: ",
+                "What you bring to the table: ",
+                "Years of experience: ",
+                "List what you have been doing: ",
+                "Love working with: "
             ]
         }
 
 
     ],
-    "main_body": [{
-        "text": "Dear (INPUT) with this letter I would like to submit my application for (INPUT)",
+    "bodies": [{
+        "id": "0",
+        "text": "I’ve come to notice my obsession with documenting my life, because of this obsession I have bounced a lot around technologies, experiencing both front and backend development, I have worked with APIs, Databases, I did a year of quantitative trading where I exclusively focused on algorithm development.(INPUT)",
         "inputs": [
-            "Input Addressed Person:",
-            "Input Name of Job:"
+            "Closing sentence of the body: "
         ]
     }]
 }

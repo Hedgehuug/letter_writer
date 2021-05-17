@@ -28,6 +28,7 @@ class File_Access:
         final_return = File_Access(import_file)
         return final_return
 
+    # I need to find out what this does
     def fetch_group(self,group):
         return self.file[group]
         
@@ -51,7 +52,7 @@ if __name__ == "__main__":
         counter = 0
         final_list = []
         for item in list_input:
-            if item  == '(INPUT)':
+            if '(INPUT)' in item:
                 item = input(introductions[intro_index]['inputs'][counter])
                 counter += 1
             final_list.append(item)
