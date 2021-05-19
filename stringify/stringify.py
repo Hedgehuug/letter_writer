@@ -8,9 +8,18 @@ def check_list(text,inputs_list):
         counter = 0
         final_list = []
         for item in split_text:
-            if '(INPUT)' in item:
-                item = input(inputs_list[counter])
-                counter += 1
+            if item == '(INPUT)':
+                try:
+                    item = input(inputs_list[counter])
+                    counter += 1
+                except IndexError as err:
+                    print("Expected Inputs exceed given: ", err)
+            if item == '(INPUT).':
+                try:
+                    item = f"{input(inputs_list[counter])}."
+                    counter += 1
+                except IndexError as err:
+                    print("Expected Inputs exceed given: ", err)
             final_list.append(item)
         return final_list
 
@@ -19,3 +28,6 @@ def check_list(text,inputs_list):
 # Combines the outputted list:
 def reduce_list(str_a, str_b):
     return f"{str_a} {str_b}"
+
+
+

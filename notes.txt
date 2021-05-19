@@ -1,0 +1,6 @@
+
+
+Agile Recap on 17/05/2021
+- Last time I manage to get the basic stringing function working
+- I have a json file with all my introductions, and all the input questions for them
+- I can translate embedded variable names to change it to my input

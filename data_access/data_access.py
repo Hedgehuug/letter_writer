@@ -20,6 +20,9 @@ class ContextManager:
 class File_Access:
     def __init__(self,json_file):
         self.file = json_file
+        self.introductions = json_file['introductions']
+        self.bodies = json_file['bodies']
+        self.endings = json_file['endings']
 
     @classmethod
     def create_access(self,file_name):
