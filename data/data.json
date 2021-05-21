@@ -13,7 +13,7 @@
             "inputs": [
                 "Input Addressed Person or company: ",
                 "Applied Position: ",
-                "What were you looking for when you came accross this posting: ",
+                "What were you looking for when you came across this posting: ",
                 "What you bring to the table: ",
                 "Years of experience: ",
                 "List what you have been doing: ",
@@ -25,14 +25,16 @@
     ],
     "bodies": [{
         "id": "0",
-        "text": "I’ve come to notice my obsession with documenting my life, because of this obsession I have bounced a lot around technologies, experiencing both front and backend development, I have worked with APIs, Databases, I did a year of quantitative trading where I exclusively focused on algorithm development.(INPUT)",
+        "text": "I’ve come to notice my obsession with documenting my life, because of this obsession I have bounced a lot around technologies, experiencing both front and backend development, I have worked with (INPUT) , APIs, Databases, web scraping, Data analysis, I did a year of quantitative trading where I exclusively focused on algorithm development. This gives me an edge in extracting the important bits in large data. (INPUT). I have had small encounters with (INPUT).Besides my technical capabilities, I am interested in risk aversion, management styles, psychology, and most of all I love exchanging ideas with people.",
         "inputs": [
-            "Closing sentence of the body: "
+            "Additional skills not yet listed: ",
+            "How my skills help the company: ",
+            "Skill I have minimum experience with: "
         ]
     }],
     "endings": [{
         "id": "0",
-        "text": "",
+        "text": "I would be delighted to discuss ways I can help the company grow, and to find out if I would be the right fit for your community. Thank you for the opportunity to share my opinions, I look forward to hearing from you.",
         "inputs": [
 
         ]

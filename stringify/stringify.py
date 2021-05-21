@@ -20,6 +20,12 @@ def check_list(text,inputs_list):
                     counter += 1
                 except IndexError as err:
                     print("Expected Inputs exceed given: ", err)
+            if item == '(INPUT),':
+                try:
+                    item = f"{input(inputs_list[counter])},"
+                    counter += 1
+                except IndexError as err:
+                    print("Expected Inputs exceed given: ", err)
             final_list.append(item)
         return final_list
 
