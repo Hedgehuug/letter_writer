@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
 
         print("The Ending: ")
-        end = endings[us.get_id_input("Ending ID: ",len(bodies))]
+        end = endings[ui.get_id_input("Ending ID: ",len(bodies))]
         # main_body = stringify.check_list(body['text'],body['inputs'])
         ending = reduce(stringify.reduce_list,stringify.check_list(ending['text'],ending['inputs']))
         print(f"Ending: \n{ending}\n")
